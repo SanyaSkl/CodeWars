@@ -15,3 +15,14 @@ function alienLanguage(str){
     }
     return result.join(' ')
 }
+
+
+
+// function alienLanguage(str) {
+//     return str.split(' ') // Разбиваем строку на слова
+//               .map(word =>
+//                   word.slice(0, -1) + // Берем все, кроме последней буквы
+//                   word.slice(-1).toLowerCase() // Меняем последнюю букву на строчную
+//               )
+//               .join(' '); // Собираем обратно в строку
+// }
